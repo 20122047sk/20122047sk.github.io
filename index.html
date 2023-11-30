@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>♡</title>
+    
+    <!-- GSAPを先に読み込む -->
+    <script src="https://unpkg.com/gsap@3.9.2/dist/gsap.min.js"></script>
+    <!-- jQueryを後に読み込む -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    
+    <script src="gsap.min.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="profile.js"></script>
+
 </head>
 <body>
     
@@ -25,7 +35,7 @@
             <div class="menu-txt">Menu</div>
         </div>
         <div class="logo-wrapper">
-            <div class="logo"><span>♡</div>
+            <div class="logo"><span>MY PROLILE</div>
         </div>
         <div class="shop-wrapper"></div>
         </div>
@@ -74,121 +84,75 @@
         <div class="slide" data-order="2">
             <div class="slide-content txt">
                 <div class="txt-wrapper">
-                <span class="copy">Show with me</span>
-                <h2><span>Love Simple</span> Fashion</h2>
-                <p class="excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-                <button>Shop now</button>
+                <span class="copy">My role model</span>
+                <h2><span>戦慄</span>かなの</h2>
+                <p class="excerpt">ファビュラス🦋</p>
+                <button onclick="window.location.href='https://www.youtube.com/channel/UCkXGM2JbAQQ9822OcC_WevA'">chack now</button>
                 </div>
             </div>
             <div class="slide-content img">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/slide2.jpg" alt="" />
+                <img src="image/kanano.JPG" alt="" />
             </div>
             </div>  
         <div class="slide " data-order="3">
             <div class="slide-content txt">
                 <div class="txt-wrapper">
-                <span class="copy">Fashion around me</span>
+                <span class="copy">My best friend</span>
                 <ul>
                     <li>
                     <div class="date-wrapper">
-                        <div class="date">25</div>
-                        <div class="month">April</div>
+                        <div class="text">五十嵐</div>
+                        <div class="text">鈴</div>
                     </div>
                     <div class="post-wrapper">
-                        <div class="post-title"><a href="">Top colour pantone for fashion 2016</a></div>
+                        <div class="post-title"><a href="">Igarasi rin</a></div>
                         <div class="post-info"> 
                         <ul>
-                            <li>Admin /</li>
-                            <li>Discovery /</li>
-                            <li>15 comments</li>
+                            <li>♡</li>
+                            <li>istp</li>
+                            <li>♡</li>
                         </ul>
                         </div>
                     </div>
                     </li>
                     <li>
                     <div class="date-wrapper">
-                        <div class="date">18</div>
-                        <div class="month">April</div>
+                        <div class="text">佐藤</div>
+                        <div class="text">有彩</div>
                     </div>
                     <div class="post-wrapper">
-                        <div class="post-title"><a href="">Inspiration for fashion for Logan's designer</a></div>
+                        <div class="post-title"><a href="">Satou arisa</a></div>
                         <div class="post-info"> 
                         <ul>
-                            <li>Admin /</li>
-                            <li>Inspirations /</li>
-                            <li>08 comments</li>
-                        </ul>
-                        </div>
-                    </div>
-                    </li>
-                    <li>
-                    <div class="date-wrapper">
-                        <div class="date">06</div>
-                        <div class="month">April</div>
-                    </div>
-                    <div class="post-wrapper">
-                        <div class="post-title"><a href="">Hipster -Fashion trand this summer</a></div>
-                        <div class="post-info"> 
-                        <ul>
-                            <li>Admin /</li>
-                            <li>Discovery /</li>
-                            <li>22 comments</li>
+                            <li>♡</li>
+                            <li>esfp</li>
+                            <li>♡</li>
                         </ul>
                         </div>
                     </div>
                     </li>
                 </ul>
-                <span class="view-all">View all articles</span> 
+                <span class="view-all">follow us!</span> 
                 
                 </div>
             </div>
             <div class="slide-content img">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/slide3.jpg" alt="" />
+                <img src="image/friend.JPG" alt="" />
             </div>
             </div>
-        <div class="slide " data-order="4">
-            <div class="slide-content txt">
-                <div class="txt-wrapper">
-                <span class="copy">What clients say</span>
-                <h2><span>Mr.Bara</span> Best Choice </h2>
-                <p class="excerpt">I combine the best of our skills and ideas to present you products really worth your attention that will change the way you think about design, structure, color and website itself. </p>
-                </div>
-            </div>
-            <div class="slide-content img">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/slide4.jpg" alt="" />
-            </div>
-            </div>
-        <div class="slide " data-order="5">
-            <div class="slide-content txt">
-                <div class="txt-wrapper">
-                <span class="copy">Keep in touch</span>
-                <h3>Melbourne, <span>Australia</span></h3>
-                <p class="excerpt">269 King Str, 05th Floor, Utral House Building. Melbourne. VIC 3000. Australia</p>
-                <p><strong>Email:</strong> <a href="mailto:mariosm18@gmail.com">mariosm18@gmail.com</a></p>
-                <p>Call directly: <span class="phone">+99 (0) 344 956 4050</span></p>
-                </div>
-            </div>
-            <div class="slide-content img">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/slide5.jpg" alt="" />
-            </div>
-            </div>
-        </div>
     </div>
     <div class="footer">
         <div class="social-wrapper">
         <ul>
-            <li><a href="">Codepen</a></li>
-            <li><a href="">Dribbble</a></li>
-            <li><a href="">Behance</a></li>
+            <li><a href="https://instagram.com/hdjnhzt?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr">🩷</a></li>
+            <li><a href="https://x.com/hdjnhzt?s=21&t=smSNV-G7KmmPlD_5RNo_yw">💙</a></li>
+            <li><a href="https://bere.al/nyo.n3">💜</a></li>
         </ul>
         </div>
         <div class="language-wrapper">
         </div>
     </div>
     </div>
-
-<link rel="stylesheet" href="stylesheet.css">
-<script src="profile.js"></script>
 
 </body>
 </html>
